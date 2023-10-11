@@ -25,3 +25,24 @@
   display: flex;
   justify-content: center;
 }
+
+@mixin h1 {
+  font-size: 4rem;
+  line-height: normal;
+  letter-spacing: 0.447em;
+  font-variation-settings: "opsz" 115;
+  font-variation-settings: "wght" 684;
+  font-variation-settings: "SOFT" 100;
+  font-variation-settings: "WONK" 0.691;
+}
+
+
+@mixin header__desc--first {
+  font-size: 130%;
+  line-height: normal;
+  letter-spacing: 0.158em;
+  font-variation-settings: "opsz" 65;
+  font-variation-settings: "wght" 293;
+  font-variation-settings: "SOFT" ;
+  font-variation-settings: "WONK" ;
+}
