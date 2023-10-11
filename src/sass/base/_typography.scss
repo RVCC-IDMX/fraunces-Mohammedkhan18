@@ -1,4 +1,30 @@
 /* typography */
+.header__title {
+
+    font-size: 4rem;
+    font-style: normal;
+    letter-spacing: 0.304em;
+    line-height: 0.9;
+    font-variation-settings: "opsz" 120, "wght" 758, "SOFT" 100, "WONK" 0.842;
+    color: #004040;
+}
+
+.header__desc--first {
+    font-size: 16px;
+    font-style: italic;
+    line-height: normal;
+    letter-spacing: 0.281em;
+    font-variation-settings: "opsz" 82, "wght" 342, "SOFT" 59.4, "WONK" 0.82;
+    color: #004040;
+}
+
+.header__desc--second {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.8em;
+    letter-spacing: 0.17em;
+    font-variation-settings: "opsz" 69, "wght" 540, "SOFT" 100, "WONK" 0.1;
+}
 
 @font-face {
     font-family: 'Fraunces';
@@ -16,7 +42,7 @@
 
 $font: "Fraunces", serif;
 // body font styling vars
-$body-font-size: 120%;
+$body-font-size: 130%;
 $body-font-weight: 350;
 $body-italic-weight: 100;
 
@@ -25,3 +51,5 @@ $display-font: $font;
 $display-weight: 900;
 $display-spacing: 0.15em;
 $display-title-size: 4rem;
+
+
